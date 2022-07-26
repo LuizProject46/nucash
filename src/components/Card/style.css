@@ -1,0 +1,32 @@
+.card{
+    width: 100%;
+    max-width: 500px;
+    background: #222227;
+    border-radius: 6px;
+    margin-top: 10px;
+    border-left: 4px solid #444444;
+
+}
+
+.card.active{
+    border-left: 4px solid rgb(17, 225, 128);
+}
+.card .cardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.card .cardHeader  span{
+    font-weight: 600;
+}
+
+.card .cardFooter{
+    padding: 0 0 15px 16px;
+}
+
+.cardFooter .type{
+    font-weight: 500;
+    font-size: 15px;
+}

@@ -1,0 +1,19 @@
+.transactions{
+    width: calc(50% - 55px);
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.alert{
+    width: 100%;
+    max-width: 400px;
+    padding: 0px 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.alert p{
+    margin-left: 10px;
+}
