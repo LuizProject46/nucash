@@ -15,7 +15,7 @@ function List({ listTransactions}){
                     value={transaction.value.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}
                     description={transaction.description}
                     type={transaction.type}
-                    className={`${transaction.type == 'entrada' ? 'active' : ''}`}
+                    className={`${transaction.type === 'entrada' ? 'active' : ''}`}
                 />
             ))}
         </div>

@@ -14,7 +14,7 @@ function Form({ listTransactions, setListTransasctions}){
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        if(transactionValue == 0 || !transactionValue){
+        if(transactionValue === 0 || !transactionValue){
             alert("Ops! Precisar ser um valor maior que zero.")
             return
         }
